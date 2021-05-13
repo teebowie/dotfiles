@@ -1,4 +1,4 @@
-neofetch&&echo '\t\t\t\t\tHi Teebowie!'
+pfetch&&echo '\t\t\t\t\tHi Teebowie!'
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
