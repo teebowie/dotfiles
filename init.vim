@@ -45,22 +45,22 @@ Plug 'tpope/vim-commentary'
 " Automatic close quotes, parenthesis...
 Plug 'Raimondi/delimitMate'
 " File explorer for Vim
-" Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 colorscheme dracula
 
-" NERDTree settings
-" map <C-b> :NERDTreeToggle<CR>
-" map <C-i> :NERDTreeFind<CR>
-" let g:NERDTreePatternMatchHighlightFullName = 1
-" let NERDTreeAutoDeleteBuffer = 1
-" let NERDTreeMinimalUI = 1
-" let NERDTreeDirArrows = 1
-" let g:NERDDefaultAlign = 'left'
-" let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
-" let g:NERDTreeChDirMode=2
-" let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
-" let g:NERDTreeShowBookmarks=1
+NERDTree settings
+map <C-b> :NERDTreeToggle<CR>
+map <C-i> :NERDTreeFind<CR>
+let g:NERDTreePatternMatchHighlightFullName = 1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+let g:NERDTreeChDirMode=2
+let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
+let g:NERDTreeShowBookmarks=1
 
 imap jk <Esc>
